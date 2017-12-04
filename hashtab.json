@@ -1,0 +1,13 @@
+{
+    "version": "6.0.0.34",
+    "hash": "b8ff1dd80f370b137922a9dd2d8b04e16fd4f8681458f92c566e65e2e80724ad",
+    "homepage": "http://implbits.com/products/hashtab/",
+    "url": "http://implbits.com/products/hashtab/HashTab_v6.0.0.34_Setup.exe",
+    "installer": {
+        "keep": "true"
+    },
+    "checkver": "v(.+)_Setup.exe\" id=\"btn_download_now\"",
+    "autoupdate": {
+        "url": "http://implbits.com/products/hashtab/HashTab_v$version_Setup.exe"
+    }
+}
