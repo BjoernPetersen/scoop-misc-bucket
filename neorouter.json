@@ -1,0 +1,20 @@
+{
+    "version": "2.3.2.4450",
+    "url": "https://download.neorouter.com/Downloads/NRFree/Update_2.3.2.4450/Windows/NeoRouterPortable-2.3.2.4450-free.zip",
+    "hash": "eb550cf5a8a93db14f990a0c952087fae4512b3c40d31fe3dff5150c5da7615b",
+    "homepage": "http://www.neorouter.com/products-nrfree",
+    "shortcuts": [
+        [
+            "NRViewer.exe",
+            "NeoRouter Network Explorer"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.neorouter.com/downloads",
+        "re": "Full package 32-bit & 64-bit &nbsp;&nbsp;\\s+<span class=\"small\"><b>v ([\\d\\.]+)",
+        "reverse": "true"
+    },
+    "autoupdate": {
+        "url": "https://download.neorouter.com/Downloads/NRFree/Update_$version/Windows/NeoRouterPortable-$version-free.zip"
+    }
+}
