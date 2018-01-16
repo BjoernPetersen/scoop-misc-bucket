@@ -1,0 +1,20 @@
+{
+    "version": "7.4.0",
+    "url": "https://waterlan.home.xs4all.nl/dos2unix/dos2unix-7.4.0-win64.zip",
+    "hash": "1e3db91000c217c2de84f231615a2cc88dad275d8fa0f6698bbfd5f7d0c50a1b",
+    "homepage": "https://waterlan.home.xs4all.nl/dos2unix.html",
+	"license": "https://waterlan.home.xs4all.nl/dos2unix/COPYING.txt",
+    "bin": [
+        "bin/dos2unix.exe",
+        "bin/mac2unix.exe",
+        "bin/unix2dos.exe",
+        "bin/unix2mac.exe"
+    ],
+    "checkver": {
+        "url": "https://waterlan.home.xs4all.nl/dos2unix.html",
+        "re": "Stable version: ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "https://waterlan.home.xs4all.nl/dos2unix/dos2unix-$version-win64.zip"
+    }
+}
