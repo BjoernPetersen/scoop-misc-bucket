@@ -1,0 +1,21 @@
+{
+    "homepage": "http://www.oracle.com/technetwork/java/javase/overview/index.html",
+    "version": "9.0.4-11",
+	"url": "http://download.oracle.com/otn-pub/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe",
+	"hash": "56C67197A8F2F7723FFB0324191151075CDEC0F0891861E36F3FADDA28D556C3",
+    "cookie": {
+        "oraclelicense": "accept-securebackup-cookie"
+    },
+    "installer": {
+        "args": [
+            "/s",
+            "ADDLOCAL=\"ToolsFeature,SourceFeature\"",
+            "INSTALLDIR=\"$dir\""
+        ],
+        "keep": true
+    },
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    }
+}
