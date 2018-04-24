@@ -7,6 +7,9 @@
     "bin": [
         "bin/jetty.sh"
     ],
+    "env_set": {
+        "JETTY_HOME": "$dir"
+    },
     "checkver": {
         "url": "https://www.eclipse.org/jetty/download.html",
         "re": "<td align=\\\"left\\\" valign=\\\"top\\\"><p>(\\d+\\.\\d+\\.\\d+\\.v\\d+)</p></td>"
@@ -16,5 +19,9 @@
         "hash": {
             "url": "$url.sha1"
         }
-    }
+    },
+    "pre_install": [
+        "mv $dir/jetty-distribution-*/* $dir",
+        "rm -r $dir/jetty-distribution-*"
+    ]
 }
