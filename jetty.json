@@ -1,7 +1,7 @@
 {
-    "version": "9.4.10.v20180503",
-    "url": "http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.10.v20180503/jetty-distribution-9.4.10.v20180503.zip",
-    "hash": "sha1:0d73a15dc709e115db985b5da1b98f6c434f3e1c",
+    "version": "9.4.11.v20180605",
+    "url": "http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.11.v20180605/jetty-distribution-9.4.11.v20180605.zip",
+    "hash": "sha1:18f5a26f3747d7b47008684ccaa519b92d39909e",
     "homepage": "https://www.eclipse.org/jetty",
     "license": "https://www.eclipse.org/jetty/licenses.html",
     "bin": [
