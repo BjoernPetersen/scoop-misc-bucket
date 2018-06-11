@@ -1,7 +1,8 @@
-# scoop-bucket
+# scoop-misc-bucket
 
-A scoop bucket containing some extra App Manifests.
+A scoop bucket containing some extra App Manifests I personally missed from the "known" buckets.  
+Feel free to suggest additions.
 
 ```
-scoop bucket add bjoern https://github.com/BjoernPetersen/scoop-bucket
+scoop bucket add misc https://github.com/BjoernPetersen/scoop-misc-bucket
 ```
