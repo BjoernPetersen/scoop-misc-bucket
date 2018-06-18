@@ -1,19 +1,19 @@
 {
     "homepage": "http://dualmonitortool.sourceforge.net/",
-    "version": "2.6",
-    "url": "https://sourceforge.net/projects/dualmonitortool/files/dualmonitortool/2.6/DualMonitorTools-2.6.zip",
-    "hash": "sha1:a83a99c28b6ae559de426d3b6028ec43334e2f09",
+    "version": "2.7",
+    "url": "https://sourceforge.net/projects/dualmonitortool/files/dualmonitortool/2.7/DualMonitorTools-2.7.zip",
+    "hash": "sha1:3f36099857c08349944dfa3016a65385d8844fc6",
     "shortcuts": [
         [
             "DMT.exe",
             "Dual Monitor Tools"
         ]
     ],
-	"persist": [
-		"DmtSettings.xml",
-		"DmtMagicWords.xml"
-	],
-	"license": "GPLv3",
+    "persist": [
+        "DmtSettings.xml",
+        "DmtMagicWords.xml"
+    ],
+    "license": "GPLv3",
     "checkver": "Dual Monitor Tools is ([\\d.]+)",
     "autoupdate": {
         "url": "https://sourceforge.net/projects/dualmonitortool/files/dualmonitortool/$version/DualMonitorTools-$version.zip"
