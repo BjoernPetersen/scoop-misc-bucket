@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/sdias/win-10-virtual-desktop-enhancer",
+    "version": "0.11.1",
+    "license": "MIT",
+    "url": "https://github.com/sdias/win-10-virtual-desktop-enhancer/releases/download/0.11.1/Windows.10.Virtual.Desktop.Enhancer.0.11.1.zip",
+    "hash": "97b5252b7fdf7f459db69c03c4730864f4582f5feebc2cf99c4e325ab254e004",
+    "bin": "virtual-desktop-enhancer.exe",
+    "persist": ["settings.ini"],
+    "checkver": {
+        "github": "https://github.com/sdias/win-10-virtual-desktop-enhancer"
+    },
+    "autoupdate": {
+        "url": "https://github.com/sdias/win-10-virtual-desktop-enhancer/releases/download/$version/Windows.10.Virtual.Desktop.Enhancer.$version.zip"
+    },
+    "notes": "See for instructions on autostart: https://github.com/sdias/win-10-virtual-desktop-enhancer/blob/master/docs/installation.md#autostart"
+}
