@@ -4,8 +4,11 @@
     "hash": "3b4ad8f1f15f1a73e99cf082ae38a821a7567b63415f57d63595baec079a4b07",
     "homepage": "http://www.rejetto.com/hfs",
     "license": "Freeware",
-    "bin": [
-        "hfs.exe"
+    "shortcuts": [
+        [
+            "hfs.exe",
+            "HTTP File Server (HFS)"
+        ]
     ],
     "checkver": {
         "url": "http://www.rejetto.com/hfs/?f=dl",
