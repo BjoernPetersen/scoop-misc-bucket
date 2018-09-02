@@ -1,5 +1,6 @@
 {
     "homepage": "https://github.com/sdias/win-10-virtual-desktop-enhancer",
+    "description": "An application that enhances the Windows 10 multiple desktops feature by adding additional keyboard shortcuts and support for multiple wallpapers",
     "version": "0.11.2",
     "license": "MIT",
     "url": "https://github.com/sdias/win-10-virtual-desktop-enhancer/releases/download/0.11.2/Windows.10.Virtual.Desktop.Enhancer.0.11.2.zip",

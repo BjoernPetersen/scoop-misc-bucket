@@ -3,6 +3,7 @@
     "url": "http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.12.v20180830/jetty-distribution-9.4.12.v20180830.zip",
     "hash": "sha1:e07f390be8ff444a1f7dde70ba7e87bbd43201e2",
     "homepage": "https://www.eclipse.org/jetty",
+    "description": "A pure Java-based HTTP Server and Servlet Container",
     "license": "https://www.eclipse.org/jetty/licenses.html",
     "bin": [
         "bin/jetty.sh"
