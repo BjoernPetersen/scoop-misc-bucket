@@ -15,5 +15,11 @@
     },
     "autoupdate": {
         "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v$version/ShutdownServer-$version.zip"
+    },
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
     }
 }
