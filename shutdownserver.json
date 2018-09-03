@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/BjoernPetersen/ShutdownServer",
     "description": "HTTP server for Windows for remote shutdown ",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "license": "MIT",
-    "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v0.2.0/ShutdownServer-0.2.0.zip",
-    "hash": "e3ceca3834bae48ba70b0426654d1a36e24c6502e68022b34240932d16fc95ef",
-    "extract_dir": "ShutdownServer-0.2.0",
+    "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v1.0.0/ShutdownServer-1.0.0.zip",
+    "hash": "6d461e0d86d7db2999969b5c25fc535bc991354be90392d600a521ca7567249a",
+    "extract_dir": "ShutdownServer-1.0.0",
     "bin": [
         "bin/ShutdownServer.bat"
     ],
