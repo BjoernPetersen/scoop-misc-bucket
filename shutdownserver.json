@@ -5,8 +5,10 @@
     "license": "MIT",
     "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v0.1.0/ShutdownServer-0.1.0.zip",
     "hash": "bd0f965ce5242d96813f99f358aeaca120c0a7801cd1e4d4a9e59d3e4b93fdf8",
-    "extract_dir": "ShutdownServer-$version",
-    "bin": "bin/ShutdownServer.bat",
+    "extract_dir": "ShutdownServer-0.1.0",
+    "bin": [
+        "bin/ShutdownServer.bat"
+    ],
     "persist": [
         "config"
     ],
@@ -14,7 +16,8 @@
         "github": "https://github.com/BjoernPetersen/ShutdownServer"
     },
     "autoupdate": {
-        "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v$version/ShutdownServer-$version.zip"
+        "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v$version/ShutdownServer-$version.zip",
+        "extract_dir": "ShutdownServer-$version"
     },
     "suggest": {
         "JDK": [
