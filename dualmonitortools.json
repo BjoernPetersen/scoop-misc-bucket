@@ -14,7 +14,7 @@
         "DmtSettings.xml",
         "DmtMagicWords.xml"
     ],
-    "license": "GPLv3",
+    "license": "GPL-3.0-only",
     "checkver": "Dual Monitor Tools is ([\\d.]+)",
     "autoupdate": {
         "url": "https://sourceforge.net/projects/dualmonitortool/files/dualmonitortool/$version/DualMonitorTools-$version.zip"

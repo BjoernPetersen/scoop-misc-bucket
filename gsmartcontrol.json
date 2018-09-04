@@ -21,7 +21,7 @@
             "GSmartControl"
         ]
     ],
-    "license": "GPLv3",
+    "license": "GPL-3.0-only",
     "autoupdate": {
         "architecture": {
             "64bit": {
