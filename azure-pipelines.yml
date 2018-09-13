@@ -4,10 +4,12 @@ pool:
 steps:
 - powershell: |
     iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-    ./bin/checkver.ps1 6>&1 # | findstr -i "autoupdate available"
-    echo $LASTEXITCODE > foundUpdate.txt
+    ./bin/checkver.ps1 6>&1 | findstr -i "autoupdate available"
   displayName: Check for new versions
 - task: SendTelegramNotification@0
+  condition: eq(variables['Agent.JobStatus'], 'Failed')
   inputs:
     botToken: $(botToken)
-    getChatId: true
+    chats: $(chatId)
+    taskStatus: false
+    message: There are updates for your scoop bucket!
