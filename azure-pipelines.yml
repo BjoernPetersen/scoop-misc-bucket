@@ -1,1 +1,13 @@
-steps: []
+pool:
+  vmImage: 'VS2017-Win2016'
+
+steps:
+- powershell: |
+    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+    ./bin/checkver.ps1 6>&1 | findstr -i "autoupdate available"
+    echo $LASTEXITCODE > foundUpdate.txt
+  displayName: Check for new versions
+- task: SendTelegramNotification@0
+  inputs:
+    botToken: $(botToken)
+    getChatId: true
