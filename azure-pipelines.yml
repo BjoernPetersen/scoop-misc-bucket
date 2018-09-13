@@ -1,1 +1,15 @@
-steps: []
+pool:
+  vmImage: 'VS2017-Win2016'
+
+steps:
+- powershell: |
+    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+    if (./bin/checkver.ps1 6>&1 | findstr -i "autoupdate available") { exit 1 } else { exit 0 }
+  displayName: Check for new versions
+- task: SendTelegramNotification@0
+  condition: eq(variables['Agent.JobStatus'], 'Failed')
+  inputs:
+    botToken: $(botToken)
+    chats: $(chatId)
+    taskStatus: false
+    message: There are updates for your scoop bucket!
