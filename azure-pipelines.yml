@@ -4,7 +4,8 @@ pool:
 steps:
 - powershell: |
     iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-    echo $PSVersionTable.PSVersion
+    ls
+    ls ..
     ./bin/checkver.ps1 6>&1 | findstr -i "autoupdate available"
     echo $LASTEXITCODE > foundUpdate.txt
   displayName: Check for new versions
