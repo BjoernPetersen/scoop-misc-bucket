@@ -1,0 +1,24 @@
+{
+    "homepage": "https://www.googleplaymusicdesktopplayer.com/",
+    "description": "A beautiful cross platform Desktop Player for Google Play Music",
+    "version": "4.6.1",
+    "license": "MIT",
+    "url": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/releases/download/v4.6.1/GPMDP_3-4.6.1-full.nupkg#/dl.7z",
+    "hash": "sha1:a3112a6ffa5d2c91ccebc48a45f607362efe0fc4",
+    "extract_dir": "lib/net45",
+    "shortcuts": [
+        [
+            "Google%20Play%20Music%20Desktop%20Player.exe",
+            "Google Play Music Desktop Player (GPMDP)"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-"
+    },
+    "autoupdate": {
+        "url": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/releases/download/v$version/GPMDP_3-$version-full.nupkg#/dl.7z",
+        "hash": {
+            "url": "$baseurl/RELEASES"
+        }
+    }
+}
