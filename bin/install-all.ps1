@@ -5,6 +5,7 @@ foreach ($file in Get-ChildItem) {
         $baseName = $file.BaseName
         (scoop install $name 6> install_$baseName.log)
         if (Get-Content install_$baseName.log | findstr -i "ERROR") {
+            Write-Error "Failed: $baseName"
             $failed = 1
         }
     }
