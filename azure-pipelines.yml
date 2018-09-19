@@ -1,8 +1,8 @@
-pool:
-  vmImage: 'VS2017-Win2016'
-
 jobs:
-- job: Check for updates
+- job: checkUpdates
+  displayName: Check for updates
+  pool:
+    vmImage: 'VS2017-Win2016'
   steps:
   - powershell: |
       iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
@@ -28,7 +28,10 @@ jobs:
       chats: $(chatId)
       taskStatus: false
       message: There are updates for your scoop bucket!
-- job: Check functionality of manifests
+- job: checkValidity
+  displayName: Check functionality of manifests
+  pool:
+    vmImage: 'VS2017-Win2016'
   steps:
   - powershell: |
       iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
