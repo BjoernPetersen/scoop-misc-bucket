@@ -6,8 +6,6 @@ foreach ($file in Get-ChildItem) {
         (scoop install $name 6> install_$baseName.log)
         if (Get-Content install_$baseName.log | findstr -i "ERROR") {
             $failed = 1
-        } else {
-            Remove-Item install_$baseName.log
         }
     }
 }
