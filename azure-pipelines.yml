@@ -1,6 +1,6 @@
 jobs:
-- job: checkUpdates
-  displayName: Check for updates
+- job: updateCheck
+  displayName: Update check
   pool:
     vmImage: 'VS2017-Win2016'
   steps:
@@ -28,8 +28,8 @@ jobs:
       chats: $(chatId)
       taskStatus: false
       message: There are updates for your scoop bucket!
-- job: checkValidity
-  displayName: Check functionality of manifests
+- job: validityCheck
+  displayName: Functionality check
   pool:
     vmImage: 'VS2017-Win2016'
   steps:
