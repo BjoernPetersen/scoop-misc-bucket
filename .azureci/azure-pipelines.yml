@@ -5,6 +5,9 @@ jobs:
     vmImage: 'VS2017-Win2016'
   steps:
   - powershell: |
+      echo (Get-ExecutionPolicy)
+      echo (Get-ExecutionPolicy -Scope CurrentUser)
+  - powershell: |
       iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
       ./bin/checkver.ps1 6> checkverOutput.log
       if (cat .\checkverOutput.log | findstr -i "autoupdate available") { exit 1 } else { exit 0 }
