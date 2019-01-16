@@ -7,7 +7,7 @@
     "hash": "d95c5a27b43386d610c60aed6503073103717d0eccc90e6619fd5f52e6576ebc",
     "extract_dir": "ShutdownServer-2.0.0",
     "bin": "bin/ShutdownServer.bat",
-    "pre_install": "New-Item $dir/config.yml; New-Item $dir/shutdown.yml",
+    "pre_install": "New-Item $dir/config.yml",
     "persist": [
         "config.yml",
         "shutdown.yml",
