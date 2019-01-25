@@ -7,7 +7,7 @@ jobs:
   - powershell: |
       iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
       ./bin/checkver.ps1 6> checkverOutput.log
-      if (cat .\checkverOutput.log | findstr -i "autoupdate available") { exit 1 } else { exit 0 }
+      if (cat .\checkverOutput.log | findstr -i "scoop version is") { exit 1 } else { exit 0 }
     displayName: Check for new versions
   - task: CopyFiles@2
     condition: true
