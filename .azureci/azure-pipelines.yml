@@ -28,6 +28,13 @@ jobs:
       chats: $(chatId)
       taskStatus: false
       message: There are updates for your scoop bucket!
+  - task: SendTelegramNotification@0
+    condition: ne(variables['Agent.JobStatus'], 'Failed')
+    inputs:
+      botToken: $(botToken)
+      chats: $(chatId)
+      taskStatus: false
+      message: Scoop bucket was checked.
 - job: validityCheck
   displayName: Functionality check
   pool:
