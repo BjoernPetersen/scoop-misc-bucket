@@ -1,0 +1,16 @@
+{
+    "version": "3",
+    "url": "https://6ec1f0a2f74d4d0c2019-591364a760543a57f40bab2c37672676.ssl.cf5.rackcdn.com/SetVol.zip",
+    "hash": "52fbd774adbb9383ae971997b757469e179ea4df41018642f659dc3073cbc99a",
+    "homepage": "https://rlatour.com/setvol/",
+    "description": "A free command line utility which lets you set the volume of your Windows computer's audio devices.",
+    "license": "CC-BY-ND-4.0",
+    "bin": "SetVol.exe",
+    "checkver": {
+        "url": "https://rlatour.com/setvol/",
+        "re": "version 1\\.<span lang=\"en-ca\">(\\d+(\\.\\d+)*)</span>"
+    },
+    "autoupdate": {
+        "url": "https://6ec1f0a2f74d4d0c2019-591364a760543a57f40bab2c37672676.ssl.cf5.rackcdn.com/SetVol.zip"
+    }
+}
