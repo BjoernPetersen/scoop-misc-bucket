@@ -3,16 +3,14 @@
     "description": "A PowerShell script to download Windows retail ISOs",
     "version": "1.11",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/pbatard/Fido/releases/download/v1.11/Fido.ps1",
-    "hash": "10390af6ce0bac91f7b2f948f68d5c4e831f74d1918c9dfb604e7dc9505cc443",
+    "url": "https://github.com/pbatard/Fido/releases/download/v1.11/Fido.ps1.lzma",
+    "hash": "2ff69515a1c9059d11d95abb566a014dace13af9aac8ecfcec0e59161fbff11a",
     "bin": "Fido.ps1",
     "checkver": {
         "github": "https://github.com/pbatard/Fido"
     },
     "autoupdate": {
-        "url": "https://github.com/pbatard/Fido/releases/download/v$version/Fido.ps1"
+        "url": "https://github.com/pbatard/Fido/releases/download/v$version/Fido.ps1.lzma"
     },
-    "notes": [
-        "Might need to be executed as an Administrator and with the -DisableFirstRunCustomize flag"
-    ]
+    "notes": "Might need to be executed as an Administrator and with the -DisableFirstRunCustomize flag"
 }
