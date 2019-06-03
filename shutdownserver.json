@@ -1,11 +1,11 @@
 {
     "homepage": "https://github.com/BjoernPetersen/ShutdownServer",
     "description": "HTTP server for remote shutdown",
-    "version": "4.0.1",
+    "version": "5.0.0",
     "license": "MIT",
-    "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v4.0.1/ShutdownServer-4.0.1.zip",
-    "hash": "510043191182aa661f598ca9b28cf3e5c591e741f8bf83d1cfe961917629cb62",
-    "extract_dir": "ShutdownServer-4.0.1",
+    "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v5.0.0/ShutdownServer-5.0.0.zip",
+    "hash": "5180733eec517014cf825090f51001827616edc1da3a804574d65780f231f7fd",
+    "extract_dir": "ShutdownServer-5.0.0",
     "bin": "bin/ShutdownServer.bat",
     "pre_install": "New-Item $dir/config.yml",
     "persist": [
