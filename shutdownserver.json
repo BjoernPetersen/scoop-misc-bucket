@@ -3,10 +3,8 @@
     "description": "HTTP server for remote shutdown",
     "version": "5.0.0",
     "license": "MIT",
-    "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v5.0.0/ShutdownServer-5.0.0.zip",
-    "hash": "5180733eec517014cf825090f51001827616edc1da3a804574d65780f231f7fd",
-    "extract_dir": "ShutdownServer-5.0.0",
-    "bin": "bin/ShutdownServer.bat",
+    "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v5.0.0/ShutdownServer-5.0.0-all.jar",
+    "hash": "771ad5a87f57d5ba2d2dfda6bc9daac529b17084a0031629a73a9b68c323d478",
     "pre_install": "New-Item $dir/config.yml",
     "persist": [
         "config.yml",
@@ -17,13 +15,9 @@
         "github": "https://github.com/BjoernPetersen/ShutdownServer"
     },
     "autoupdate": {
-        "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v$version/ShutdownServer-$version.zip",
-        "extract_dir": "ShutdownServer-$version"
+        "url": "https://github.com/BjoernPetersen/ShutdownServer/releases/download/v$version/ShutdownServer-$version-all.jar"
     },
     "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
-        ]
+        "JDK": "java/zulu8"
     }
 }
