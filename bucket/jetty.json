@@ -1,7 +1,7 @@
 {
-    "version": "9.4.18.v20190429",
-    "url": "http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.18.v20190429/jetty-distribution-9.4.18.v20190429.zip",
-    "hash": "sha1:855c3d503588f5edc1a99e7c0aeda93fa7603d33",
+    "version": "9.4.19.v20190610",
+    "url": "http://central.maven.org/maven2/org/eclipse/jetty/jetty-distribution/9.4.19.v20190610/jetty-distribution-9.4.19.v20190610.zip",
+    "hash": "sha1:1a79ecc8b40dc958c515c10c6b5d6d58193c0c63",
     "homepage": "https://www.eclipse.org/jetty",
     "description": "A pure Java-based HTTP Server and Servlet Container",
     "license": "EPL-1.0|Apache-2.0",
