@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/pbatard/Fido",
     "description": "A PowerShell script to download Windows retail ISOs",
-    "version": "1.16",
+    "version": "1.17",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/pbatard/Fido/releases/download/v1.16/Fido.ps1.lzma",
-    "hash": "42a5030efc6224e9dce63aa2871fc40a4055408b6f5d94c1ba77dd667b4fb587",
+    "url": "https://github.com/pbatard/Fido/releases/download/v1.17/Fido.ps1.lzma",
+    "hash": "224497f994a92e60d5fe4083efb8569d85cea281fa0f6fdb303b6a6defccea31",
     "bin": "Fido.ps1",
     "checkver": {
         "github": "https://github.com/pbatard/Fido"
