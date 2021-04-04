@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/editorconfig-checker/editorconfig-checker",
     "description": "A tool to verify that your files are in harmony with your .editorconfig",
-    "version": "2.3.4",
+    "version": "2.3.5",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -11,8 +11,8 @@
                     "ec"
                 ]
             ],
-            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/2.3.4/ec-windows-amd64.exe.tar.gz",
-            "hash": "a88c0fa12f02c684aaca371d912438cec056a487990c80cffd25fce5a21dfd80"
+            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/2.3.5/ec-windows-amd64.exe.tar.gz",
+            "hash": "f916a6456171ea798e24b14e9a0748dd3dc0eccce30b928b0347b85fefb5fd4b"
         },
         "32bit": {
             "bin": [
@@ -21,8 +21,8 @@
                     "ec"
                 ]
             ],
-            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/2.3.4/ec-windows-386.exe.tar.gz",
-            "hash": "00156723b66cb2929138c2bf0dfe67e5434eb7371b14bcf92cb73132f4b0d69e"
+            "url": "https://github.com/editorconfig-checker/editorconfig-checker/releases/download/2.3.5/ec-windows-386.exe.tar.gz",
+            "hash": "c894345e5dfcd614c1cc1c64e73d532fdfc1e0a102aff32e0072c30fae567da2"
         }
     },
     "checkver": {
