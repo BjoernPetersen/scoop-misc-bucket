@@ -1,10 +1,10 @@
 {
     "homepage": "https://fossa.com/",
     "description": "Realtime license and vulnerability management for open source dependencies",
-    "version": "3.0.16",
+    "version": "3.0.18",
     "license": "MPL-2.0",
-    "url": "https://github.com/fossas/fossa-cli/releases/download/v3.0.16/fossa_3.0.16_windows_amd64.zip#/dl.7z",
-    "hash": "47acda456366aa8dabefa2151a20bc7342265b5c05c4cfd6ca5535da4b2bcd54",
+    "url": "https://github.com/fossas/fossa-cli/releases/download/v3.0.18/fossa_3.0.18_windows_amd64.zip#/dl.7z",
+    "hash": "078851a70d533e042cf204f3a380746bd654cdaa39349982884de9e6c3af2fd9",
     "bin": "fossa.exe",
     "checkver": {
         "github": "https://github.com/fossas/fossa-cli"
