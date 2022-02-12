@@ -6,12 +6,12 @@
         "64bit": {
             "url": "https://sourceforge.net/projects/gsmartcontrol/files/1.1.4/gsmartcontrol-1.1.4-win64.zip",
             "extract_dir": "gsmartcontrol-1.1.4-win64",
-            "hash": "sha1:e108e38e4becdecd0d8c12255afcdb7e3d839925"
+            "hash": "sha1:420626d635156bdb99cebfc7b6f741c5e3d64e56"
         },
         "32bit": {
             "url": "https://sourceforge.net/projects/gsmartcontrol/files/1.1.4/gsmartcontrol-1.1.4-win32.zip",
             "extract_dir": "gsmartcontrol-1.1.4-win32",
-            "hash": "sha1:2fb4c852f8d890b5fa545f81651375798b9f3b82"
+            "hash": "sha1:52f58f5578376ea123631f25918ce858c8afc6ff"
         }
     },
     "hash": "",
