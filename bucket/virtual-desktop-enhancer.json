@@ -6,9 +6,7 @@
     "url": "https://github.com/sdias/win-10-virtual-desktop-enhancer/releases/download/0.11.2/Windows.10.Virtual.Desktop.Enhancer.0.11.2.zip",
     "hash": "b0042a7e6c005c9084be2a4472d6177e71b8332160a297178c4266eeaf5dd7c1",
     "bin": "virtual-desktop-enhancer.exe",
-    "persist": [
-        "settings.ini"
-    ],
+    "persist": "settings.ini",
     "checkver": {
         "github": "https://github.com/sdias/win-10-virtual-desktop-enhancer"
     },
