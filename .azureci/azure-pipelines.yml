@@ -2,7 +2,7 @@ jobs:
   - job: updateCheck
     displayName: Update check
     pool:
-      vmImage: "VS2017-Win2016"
+      vmImage: windows-2022
     steps:
       - powershell: |
           iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
@@ -38,7 +38,7 @@ jobs:
   - job: validityCheck
     displayName: Functionality check
     pool:
-      vmImage: "VS2017-Win2016"
+      vmImage: windows-2022
     steps:
       - powershell: |
           iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
