@@ -5,7 +5,8 @@ jobs:
       vmImage: windows-2022
     steps:
       - powershell: |
-          iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+          iwr -useb get.scoop.sh -outfile 'install.ps1'
+          ./install.ps1 -RunAsAdmin
           ./bin/checkver.ps1 6> checkverOutput.log
           if (cat .\checkverOutput.log | findstr -i "scoop version is") { exit 1 } else { exit 0 }
         displayName: Check for new versions
@@ -41,7 +42,8 @@ jobs:
       vmImage: windows-2022
     steps:
       - powershell: |
-          iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+          iwr -useb get.scoop.sh -outfile 'install.ps1'
+          ./install.ps1 -RunAsAdmin
           ./bin/install-all.ps1
       - task: CopyFiles@2
         condition: true
