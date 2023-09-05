@@ -1,9 +1,9 @@
 {
     "homepage": "http://dualmonitortool.sourceforge.net/",
     "description": "Utlitiy package with various dual monitor enhancements",
-    "version": "2.9",
-    "url": "https://sourceforge.net/projects/dualmonitortool/files/dualmonitortool/2.9/DualMonitorTools-2.9.zip",
-    "hash": "sha1:a11016ab3a4a4d690523e30cb4578dc63cdc68e8",
+    "version": "2.10",
+    "url": "https://sourceforge.net/projects/dualmonitortool/files/dualmonitortool/2.10/DualMonitorTools-2.10.zip",
+    "hash": "sha1:4efdfa7ccad0602ad2190eac0cb1c28a9d1b0063",
     "shortcuts": [
         [
             "DMT.exe",
